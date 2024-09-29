@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5BCB6622CA982E9000D246D /* NClipperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB6612CA982E9000D246D /* NClipperApp.swift */; };
+		E5BCB6642CA982E9000D246D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB6632CA982E9000D246D /* ContentView.swift */; };
+		E5BCB6662CA982E9000D246D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB6652CA982E9000D246D /* Item.swift */; };
+		E5BCB6682CA982EA000D246D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BCB6672CA982EA000D246D /* Assets.xcassets */; };
+		E5BCB66B2CA982EA000D246D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BCB66A2CA982EA000D246D /* Preview Assets.xcassets */; };
+		E5BCB6752CA982EA000D246D /* NClipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB6742CA982EA000D246D /* NClipperTests.swift */; };
+		E5BCB67F2CA982EA000D246D /* NClipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB67E2CA982EA000D246D /* NClipperUITests.swift */; };
+		E5BCB6812CA982EA000D246D /* NClipperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BCB6802CA982EA000D246D /* NClipperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5BCB6712CA982EA000D246D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BCB6562CA982E9000D246D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BCB65D2CA982E9000D246D;
+			remoteInfo = NClipper;
+		};
+		E5BCB67B2CA982EA000D246D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BCB6562CA982E9000D246D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BCB65D2CA982E9000D246D;
+			remoteInfo = NClipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5BCB65E2CA982E9000D246D /* NClipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NClipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BCB6612CA982E9000D246D /* NClipperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NClipperApp.swift; sourceTree = "<group>"; };
+		E5BCB6632CA982E9000D246D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5BCB6652CA982E9000D246D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E5BCB6672CA982EA000D246D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5BCB66A2CA982EA000D246D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5BCB6702CA982EA000D246D /* NClipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NClipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BCB6742CA982EA000D246D /* NClipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NClipperTests.swift; sourceTree = "<group>"; };
+		E5BCB67A2CA982EA000D246D /* NClipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NClipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BCB67E2CA982EA000D246D /* NClipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NClipperUITests.swift; sourceTree = "<group>"; };
+		E5BCB6802CA982EA000D246D /* NClipperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NClipperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5BCB65B2CA982E9000D246D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BCB66D2CA982EA000D246D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BCB6772CA982EA000D246D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5BCB6552CA982E9000D246D = {
+			isa = PBXGroup;
+			children = (
+				E5BCB6602CA982E9000D246D /* NClipper */,
+				E5BCB6732CA982EA000D246D /* NClipperTests */,
+				E5BCB67D2CA982EA000D246D /* NClipperUITests */,
+				E5BCB65F2CA982E9000D246D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5BCB65F2CA982E9000D246D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB65E2CA982E9000D246D /* NClipper.app */,
+				E5BCB6702CA982EA000D246D /* NClipperTests.xctest */,
+				E5BCB67A2CA982EA000D246D /* NClipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5BCB6602CA982E9000D246D /* NClipper */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB6612CA982E9000D246D /* NClipperApp.swift */,
+				E5BCB6632CA982E9000D246D /* ContentView.swift */,
+				E5BCB6652CA982E9000D246D /* Item.swift */,
+				E5BCB6672CA982EA000D246D /* Assets.xcassets */,
+				E5BCB6692CA982EA000D246D /* Preview Content */,
+			);
+			path = NClipper;
+			sourceTree = "<group>";
+		};
+		E5BCB6692CA982EA000D246D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB66A2CA982EA000D246D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5BCB6732CA982EA000D246D /* NClipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB6742CA982EA000D246D /* NClipperTests.swift */,
+			);
+			path = NClipperTests;
+			sourceTree = "<group>";
+		};
+		E5BCB67D2CA982EA000D246D /* NClipperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB67E2CA982EA000D246D /* NClipperUITests.swift */,
+				E5BCB6802CA982EA000D246D /* NClipperUITestsLaunchTests.swift */,
+			);
+			path = NClipperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5BCB65D2CA982E9000D246D /* NClipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BCB6842CA982EA000D246D /* Build configuration list for PBXNativeTarget "NClipper" */;
+			buildPhases = (
+				E5BCB65A2CA982E9000D246D /* Sources */,
+				E5BCB65B2CA982E9000D246D /* Frameworks */,
+				E5BCB65C2CA982E9000D246D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NClipper;
+			productName = NClipper;
+			productReference = E5BCB65E2CA982E9000D246D /* NClipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5BCB66F2CA982EA000D246D /* NClipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BCB6872CA982EA000D246D /* Build configuration list for PBXNativeTarget "NClipperTests" */;
+			buildPhases = (
+				E5BCB66C2CA982EA000D246D /* Sources */,
+				E5BCB66D2CA982EA000D246D /* Frameworks */,
+				E5BCB66E2CA982EA000D246D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BCB6722CA982EA000D246D /* PBXTargetDependency */,
+			);
+			name = NClipperTests;
+			productName = NClipperTests;
+			productReference = E5BCB6702CA982EA000D246D /* NClipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5BCB6792CA982EA000D246D /* NClipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BCB68A2CA982EA000D246D /* Build configuration list for PBXNativeTarget "NClipperUITests" */;
+			buildPhases = (
+				E5BCB6762CA982EA000D246D /* Sources */,
+				E5BCB6772CA982EA000D246D /* Frameworks */,
+				E5BCB6782CA982EA000D246D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BCB67C2CA982EA000D246D /* PBXTargetDependency */,
+			);
+			name = NClipperUITests;
+			productName = NClipperUITests;
+			productReference = E5BCB67A2CA982EA000D246D /* NClipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5BCB6562CA982E9000D246D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E5BCB65D2CA982E9000D246D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E5BCB66F2CA982EA000D246D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E5BCB65D2CA982E9000D246D;
+					};
+					E5BCB6792CA982EA000D246D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E5BCB65D2CA982E9000D246D;
+					};
+				};
+			};
+			buildConfigurationList = E5BCB6592CA982E9000D246D /* Build configuration list for PBXProject "NClipper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5BCB6552CA982E9000D246D;
+			productRefGroup = E5BCB65F2CA982E9000D246D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5BCB65D2CA982E9000D246D /* NClipper */,
+				E5BCB66F2CA982EA000D246D /* NClipperTests */,
+				E5BCB6792CA982EA000D246D /* NClipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5BCB65C2CA982E9000D246D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BCB66B2CA982EA000D246D /* Preview Assets.xcassets in Resources */,
+				E5BCB6682CA982EA000D246D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BCB66E2CA982EA000D246D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BCB6782CA982EA000D246D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5BCB65A2CA982E9000D246D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BCB6642CA982E9000D246D /* ContentView.swift in Sources */,
+				E5BCB6662CA982E9000D246D /* Item.swift in Sources */,
+				E5BCB6622CA982E9000D246D /* NClipperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BCB66C2CA982EA000D246D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BCB6752CA982EA000D246D /* NClipperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BCB6762CA982EA000D246D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BCB6812CA982EA000D246D /* NClipperUITestsLaunchTests.swift in Sources */,
+				E5BCB67F2CA982EA000D246D /* NClipperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5BCB6722CA982EA000D246D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BCB65D2CA982E9000D246D /* NClipper */;
+			targetProxy = E5BCB6712CA982EA000D246D /* PBXContainerItemProxy */;
+		};
+		E5BCB67C2CA982EA000D246D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BCB65D2CA982E9000D246D /* NClipper */;
+			targetProxy = E5BCB67B2CA982EA000D246D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E5BCB6822CA982EA000D246D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5BCB6832CA982EA000D246D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5BCB6852CA982EA000D246D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NClipper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moritech.NClipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5BCB6862CA982EA000D246D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NClipper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moritech.NClipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5BCB6882CA982EA000D246D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moritech.NClipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NClipper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NClipper";
+			};
+			name = Debug;
+		};
+		E5BCB6892CA982EA000D246D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moritech.NClipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NClipper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NClipper";
+			};
+			name = Release;
+		};
+		E5BCB68B2CA982EA000D246D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moritech.NClipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NClipper;
+			};
+			name = Debug;
+		};
+		E5BCB68C2CA982EA000D246D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = moritech.NClipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NClipper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5BCB6592CA982E9000D246D /* Build configuration list for PBXProject "NClipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BCB6822CA982EA000D246D /* Debug */,
+				E5BCB6832CA982EA000D246D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BCB6842CA982EA000D246D /* Build configuration list for PBXNativeTarget "NClipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BCB6852CA982EA000D246D /* Debug */,
+				E5BCB6862CA982EA000D246D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BCB6872CA982EA000D246D /* Build configuration list for PBXNativeTarget "NClipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BCB6882CA982EA000D246D /* Debug */,
+				E5BCB6892CA982EA000D246D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BCB68A2CA982EA000D246D /* Build configuration list for PBXNativeTarget "NClipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BCB68B2CA982EA000D246D /* Debug */,
+				E5BCB68C2CA982EA000D246D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5BCB6562CA982E9000D246D /* Project object */;
+}
