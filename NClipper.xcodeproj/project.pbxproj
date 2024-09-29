@@ -96,9 +96,10 @@
 		E5BCB6602CA982E9000D246D /* NClipper */ = {
 			isa = PBXGroup;
 			children = (
+				E5BCB68F2CA98303000D246D /* ViewModels */,
+				E5BCB68E2CA982FD000D246D /* Views */,
+				E5BCB68D2CA982F6000D246D /* Models */,
 				E5BCB6612CA982E9000D246D /* NClipperApp.swift */,
-				E5BCB6632CA982E9000D246D /* ContentView.swift */,
-				E5BCB6652CA982E9000D246D /* Item.swift */,
 				E5BCB6672CA982EA000D246D /* Assets.xcassets */,
 				E5BCB6692CA982EA000D246D /* Preview Content */,
 			);
@@ -128,6 +129,29 @@
 				E5BCB6802CA982EA000D246D /* NClipperUITestsLaunchTests.swift */,
 			);
 			path = NClipperUITests;
+			sourceTree = "<group>";
+		};
+		E5BCB68D2CA982F6000D246D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB6652CA982E9000D246D /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5BCB68E2CA982FD000D246D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5BCB6632CA982E9000D246D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5BCB68F2CA98303000D246D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
